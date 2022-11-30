@@ -17,6 +17,7 @@
     width: 24px;
     height: 24px;
     margin: 0 16px;
+    cursor: pointer;
 }
 
 .logo {
@@ -29,6 +30,7 @@
 .img-icon {
     width: 92px;
     height: 36px;
+    cursor: pointer;
 }
 
 .header-right {
@@ -46,6 +48,7 @@
     width: 100%;
     max-width: 300px;
     display: flex;
+    cursor: pointer;
 }
 
 .header-branch-name {
@@ -86,6 +89,7 @@
     padding: 0 16px;
     margin-right: 16px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .dropdown-user:focus {
