@@ -9,7 +9,7 @@
 import TheSidebar from './TheSidebar.vue';
 import ThePage from './ThePage.vue';
 export default {
-    name:"TheBody",
+    name: "TheBody",
     components: {
         TheSidebar,
         ThePage

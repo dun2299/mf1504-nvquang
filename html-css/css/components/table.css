@@ -9,7 +9,7 @@
 
 .table-container {
     width: 100%;
-    overflow: auto;
+    overflow: scroll;
     height: 100%;
 }
 

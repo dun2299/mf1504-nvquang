@@ -5,7 +5,7 @@
 @import url(./components/comboBox.css);
 @import url(./components/dropdown.css);
 @import url(./components/input.css);
-@import url(./components/employee.css);
+@import url(./layout/employee.css);
 @import url(./layout/header.css);
 @import url(./layout/sidebar.css);
 @import url(./components/table.css);

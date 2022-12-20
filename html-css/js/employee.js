@@ -224,9 +224,20 @@ function createEvent() {
  * author: QuangNV (08/12/2022) convert dateTime to string
  */
 
-function convertDate(dateTime) {
-    dateTime = new Date(dateTime)
-    return `${dateTime.getDate()}/${dateTime.getMonth() + 1}/${dateTime.getFullYear()}`
+function convertDate(date) {
+    date = new Date(date)
+    if(date.getDate() > 9) {
+        var day = date.getDate();
+    } else {
+        var day = '0' + date.getDate();
+    }
+    if((date.getMonth() + 1) > 9) {
+        var month = (date.getMonth() + 1);
+    } else {
+        var month = '0' + (date.getMonth() + 1);
+    }
+    let yeah = date.getFullYear();
+    return `${day}/${month}/${yeah}`
 }
 
 /**
@@ -252,6 +263,7 @@ function addBtnClickHandle() {
     } catch (error) {
         console.log(error)
     }
+    $("#employeeCode").focus()
 }
 
 /**
